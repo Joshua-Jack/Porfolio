@@ -13,16 +13,10 @@ import Experience from '../../components/work/experience'
 export default function Homepage() {
     return (
         <>   
-  <Body>
-      <Topbar />
-    
-        {/* <Shape /> */}
-            <Navbar />
-
-            </Body>
-           
-         
-    
-        </>
+            <Body>
+             <Topbar />
+              <Navbar />
+               </Body>
+                </>
     )
 } 
