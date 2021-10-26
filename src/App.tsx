@@ -12,6 +12,7 @@ import {
 import Experience from './components/work/experience';
 import Contact from './components/contact/contact';
 import Skills from './components/tech/skills';
+import About from './components/about/about';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/WorkExperience" component={Experience} />
             <Route exact path="/Technologies" component={Skills} />
             <Route exact path="/Contact" component={Contact} />
+            <Route exact path="/About" component={About} />
           </Switch>
         </Router>
       </>

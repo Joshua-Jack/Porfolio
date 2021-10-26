@@ -11,18 +11,22 @@ export default function Experience() {
        <Card >
         <Title>Zero</Title>
         <Position>Position: front-end</Position>
+        <div>Stack: React,Typescript,Graphql,The graph, IPFS</div>
         </Card>
         <Card>
         <Title>MintGoldDust</Title>
         <Position>Position: front-end</Position>
+        <div>Stack: Next JS,Typescript,Graphql,The graph, IPFS</div>
         </Card>
         <Card>
         <Title>DecentraCorp</Title>
         <Position>Position: lead front-end</Position> 
+        <div>Stack: React,Typescript,Graphql,The graph, IPFS</div>
         </Card>
         <Card>
          <Title>Opolis</Title>
         <Position>Position: senior front-end</Position>
+        <div>Stack: React,Typescript, Graphql</div>
         </Card>
         <Card>
         <Title>Dorg</Title>

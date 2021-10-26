@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../sidebar/navBar'
-import { Card, CardGrid, FOO, H1, Img, Img2 } from './skills.styles'
+import { Card, CardGrid, FOO, H1, ImageBackground, IMG, Img, Img2, Title, TitleJest } from './skills.styles'
 import nextjs from '../../assets/nextjs.svg'
 import reactjs from '../../assets/reactjs.svg'
 import js from '../../assets/js.svg'
@@ -19,36 +19,38 @@ export default function Skills() {
         <H1> Skills </H1>
         <CardGrid>
          <Card >
-             <h2>React JS</h2>
-             <img src={reactjs} /> 
+             <Title>React JS</Title>
+             <IMG src={reactjs} /> 
          </Card>
          <Card >
-        <h2> Next JS</h2> 
+        <Title> Next JS</Title> 
         <Img src={nextjs } />
          </Card>
          <Card>
-         <h2>Jest</h2>	
-         <img src={jest} />   
+         <TitleJest>Jest</TitleJest>	
+         <IMG src={jest} />   
          </Card>
          <Card>
-        <h2>Typescript </h2> 
-         <img src={typescript} />	
+        <Title>Typescript </Title> 
+         <IMG src={typescript} />	
          </Card>
          <Card>
-        <h2>Javascript</h2>
+        <Title>Javascript</Title>
         <Img src={js}/>
          </Card>
          <Card>
-        <h2>Ethers	js</h2> 
+        <Title>Ethers	js</Title> 
+        < ImageBackground>
          <Img2 src={ethers} />
+         </ImageBackground>
          </Card>
          <Card>
-         <h2>GraphQl </h2>
-         <img src={graphql}/>
+         <Title>GraphQl </Title>
+         <IMG src={graphql}/>
          </Card>
          <Card>
-        <h2> Git | Github   </h2> 
-         <img src={git} />     
+        <Title> Git | Github   </Title> 
+         <IMG src={git} />     
          </Card>
          </CardGrid>
          

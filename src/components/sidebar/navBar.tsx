@@ -39,11 +39,20 @@ export default function Navbar() {
           console.error(error);
         }
       };
+      const handleSubmit5 = async (e: any) => {
+        e.preventDefault();
+        try {
+          history.replace('/About');
+        } catch (error) {
+          console.error(error);
+        }
+      };
     return (
         <Wrapper>
              <Label onClick={handleSubmit4}>Home</Label>
             <Label onClick={handleSubmit}>Work Experience</Label>
             <Label onClick={handleSubmit2}>Technologies</Label>
+            <Label onClick={handleSubmit5}>About</Label>
             <Label onClick={handleSubmit3}>Contact</Label>
         </Wrapper>
 

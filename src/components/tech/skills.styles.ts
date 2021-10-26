@@ -39,15 +39,33 @@ export const FOO = styled.div`
 `
 
 export const Img = styled.img`
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    padding-left: 25%;
 `
 export const Img2 = styled.img`
 height: 40px;
-width: 50%;
-background:black;
+margin-top: 15%;
+/* width: 50%; */
 
 `
 export const H1 = styled.h1`
     padding-left: 16%;
+`
+
+export const IMG = styled.img`
+    padding-left: 30%;
+`
+
+export const ImageBackground = styled.div`
+background: black;
+width: 34%;
+margin-left: 30%;
+`
+
+export const Title = styled.h2`
+    padding-left: 20%;
+`
+
+export const TitleJest = styled.h2`
+    padding-left: 35%;
 `

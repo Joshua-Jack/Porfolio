@@ -1,14 +1,33 @@
 import React from 'react'
 import { Div2 } from '../headers/style.components'
 import { Container, Menu, Segment, Visibility, Image } from 'semantic-ui-react'
-import { Label } from './about.styles'
+import { AboutCard, H1, Label, Wrapper } from './about.styles'
+import Navbar from '../sidebar/navBar'
+
 
 export default function About() {
     return (
         <>
-        <Label>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <Navbar/>
+
+        <H1>About</H1>
+        <Wrapper>
+        <AboutCard>
+            <Label>
+            Hi, Im Josh I am a full-stack Blockchain Engineer who focuses on
+            <br></br>
+            web3 integrations. I'm always excited about learning new technologies and
+            <br></br>
+            creating good looking,functional, and easy to use web pages, 
+            <br></br>
+            services, and apps. I'm self-starting and self-determined, a creative 
+            <br></br>
+            problem solver, I take pride in my work, and always push to do the best work.
+            <br></br>
+            
         </Label>
+        </AboutCard>
+        </Wrapper>
           
         </>
     )
