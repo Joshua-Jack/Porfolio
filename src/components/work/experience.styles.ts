@@ -39,9 +39,63 @@ export const Wrapper = styled.div`
 export const H1 = styled.h1`
     padding-left: 16%;
 `
-export const Title = styled.h1`
-     padding-left: 6%;
-`
-export const Position = styled.h4`
+export const Title = styled.button`
+     background: none;
+     border: none;
+     font-size: 1.9em;
+     padding-left: 7%;
+     padding-top: 3%;`
+
+
+
+
+
+export const Position = styled.div`
 padding-left: 4%;
+`
+
+export const Line = styled.hr`
+    border-style: ridge;
+    color: black;
+`
+
+export const ModalBtn = styled.button`
+    margin: 0.5em;
+    font-size: 1em;
+    margin-top: 40%;
+    background: none;
+    /* text-decoration: none; */
+    color: black;
+    border: none;
+    text-align: center;
+`
+export const Stack = styled.div`
+    padding-left: 6%
+`
+
+export const IMG = styled.img`
+height: 40px;
+margin-top: 15%;
+margin-left: 20%;
+padding-bottom: 7%;
+
+`
+
+export const BackGround = styled.div`
+background: blue;
+width: 60%;
+margin-left: 20%;
+border-radius: 3%;
+`
+
+export const OpenModal = styled.button`
+    display: none;
+`
+
+export const IMg = styled.img`
+    height: 34%;
+    width: 34%;
+    padding-left: 32%;
+    margin-top: 10%;
+
 `

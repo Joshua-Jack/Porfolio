@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const CardGrid = styled.div`
     display: grid;
     grid-gap: 100px;
@@ -16,6 +15,10 @@ export const CardGrid = styled.div`
     padding-left: 16%;
     padding-top: 2%;
     `
+
+export const Body = styled.div`
+height: 150vh
+`
 
 export const Card = styled.div`
    max-width: 350px;
@@ -48,6 +51,14 @@ margin-top: 15%;
 /* width: 50%; */
 
 `
+export const Img3 = styled.img`
+height: 90px;
+margin-top: 2%;
+padding-left: 25%;
+/* width: 50%; */
+
+`
+
 export const H1 = styled.h1`
     padding-left: 16%;
 `

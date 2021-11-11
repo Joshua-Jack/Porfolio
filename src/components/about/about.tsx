@@ -10,7 +10,7 @@ export default function About() {
         <>
         <Navbar/>
 
-        <H1>About</H1>
+        <H1>Intro</H1>
         <Wrapper>
         <AboutCard>
             <Label>

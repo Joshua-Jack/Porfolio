@@ -4,12 +4,12 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
         display: flex;
         flex-direction: row;
-        justify-content: flex-start;
-        gap: 5%;
+        justify-content: flex-end;
+        gap: 1%;
         text-align: center;
         position: fixed;
         width: 100%;
-        bottom: 0;
+        top: 0;
         margin: 0;
         /* width: 100vw;
     height:80vh;
@@ -25,7 +25,7 @@ export const Label = styled.button`
     font-size: 30px;
     background: none;
     /* text-decoration: none; */
-    color: black;
+    color: white;
     border: none;
     text-align: center;
 `

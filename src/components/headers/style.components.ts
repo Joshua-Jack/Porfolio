@@ -19,13 +19,22 @@ font-size: 40px;
 // TopBAR STYLES
 export const Headers = styled.div`
         width: 100vw;
-display: flex;
-justify-content: center;
-margin-top: 20%;
-  
-        font-size: 3.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 10%;
+        margin-left: 10%;
 
 `
 
 export const Title = styled.h1`
+ font-size: 3.5em;
+ color: #FFFFFF;
+ width: 100%;
+`
+
+export const OuterWrapper = styled.div`
+        display: flex;
+        flex-direction: row;
+
 `

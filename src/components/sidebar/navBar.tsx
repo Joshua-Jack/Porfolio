@@ -52,8 +52,8 @@ export default function Navbar() {
              <Label onClick={handleSubmit4}>Home</Label>
             <Label onClick={handleSubmit}>Work Experience</Label>
             <Label onClick={handleSubmit2}>Technologies</Label>
-            <Label onClick={handleSubmit5}>About</Label>
-            <Label onClick={handleSubmit3}>Contact</Label>
+            {/* <Label onClick={handleSubmit5}>About</Label> */}
+            {/* <Label onClick={handleSubmit3}>Contact</Label> */}
         </Wrapper>
 
         // <>

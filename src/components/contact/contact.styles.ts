@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     display: flex;
-    margin-top: 8%;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    padding-left: 16%;
-    padding-top: 2%;
+    margin-right: 50%;
+    padding-top: 4%;
 `
 
 export const A = styled.a`

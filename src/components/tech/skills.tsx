@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../sidebar/navBar'
-import { Card, CardGrid, FOO, H1, ImageBackground, IMG, Img, Img2, Title, TitleJest } from './skills.styles'
+import { Body, Card, CardGrid, FOO, H1, ImageBackground, IMG, Img, Img2, Img3, Title, TitleJest } from './skills.styles'
 import nextjs from '../../assets/nextjs.svg'
 import reactjs from '../../assets/reactjs.svg'
 import js from '../../assets/js.svg'
@@ -9,6 +9,7 @@ import git from '../../assets/git.svg'
 import ethers from '../../assets/ethers.svg'
 import jest from '../../assets/jest.svg'
 import graphql from '../../assets/graphql.svg'
+import IPFS from '../../assets/IPFS.png'
 
 
 
@@ -16,6 +17,7 @@ export default function Skills() {
     return (
         <>
            <Navbar />
+           <Body>
         <H1> Skills </H1>
         <CardGrid>
          <Card >
@@ -52,8 +54,12 @@ export default function Skills() {
         <Title> Git | Github   </Title> 
          <IMG src={git} />     
          </Card>
+         <Card>
+        <Title> IPFS  </Title> 
+         <Img3 src={IPFS} />     
+         </Card>
          </CardGrid>
-         
+         </Body>
           </>
     ) 
 }
