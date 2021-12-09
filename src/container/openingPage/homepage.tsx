@@ -18,8 +18,8 @@ export default function Homepage() {
               <Navbar /> */}
               <Opening></Opening>
               <About><Topbar /></About>
-              <Technical><Skills /></Technical>
-             <Work><Experience /></Work>
+              <Technical id='skills'><Skills /></Technical>
+             <Work id='work'><Experience /></Work>
              <ContactMe><Contact /></ContactMe>
 
                </Body>
