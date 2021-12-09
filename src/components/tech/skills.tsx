@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../sidebar/navBar'
-import { Body, Card, CardGrid, FOO, H1, ImageBackground, IMG, Img, Img2, Img3, Title, TitleItem, TitleJest, Wrapper, Wrapper2, Wrapper3 } from './skills.styles'
+import { Body, Card, CardGrid, FOO, H1, ImageBackground, IMG, Img, Img2, Img3, Title, TitleItem, TitleJest, Wrapper, Wrapper2, Wrapper3, Wrapper4, Wrapper5, Wrapper6 } from './skills.styles'
 import nextjs from '../../assets/nextjs.svg'
 import reactjs from '../../assets/reactjs.svg'
 import js from '../../assets/js.svg'
@@ -77,7 +77,11 @@ export default function Skills() {
            </Typography>
            </Box>  */}
            <Wrapper>
-               <Wrapper2>   
+               <Wrapper2>  
+               <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Languges</TitleItem>    
+           <Line /> 
+           </Typography>
          <Typography id="modal-modal-title" variant="h6" component="h2">
            <TitleItem>Typescript</TitleItem>    
            <Line />
@@ -90,18 +94,22 @@ export default function Skills() {
            <TitleItem>Assembly Script</TitleItem>    
            <Line />
            </Typography>
-           <Typography id="modal-modal-title" variant="h6" component="h2">
-           <TitleItem>Jest</TitleItem>    
+           </Wrapper2>
+               <Wrapper3>
+               <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Libaries</TitleItem>    
+           <Line /> 
+           </Typography>
+               <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Next JS</TitleItem>    
            <Line />
            </Typography>
            <Typography id="modal-modal-title" variant="h6" component="h2">
            <TitleItem>React JS</TitleItem>    
            <Line />
            </Typography>
-           </Wrapper2>
-               <Wrapper3>
-               <Typography id="modal-modal-title" variant="h6" component="h2">
-           <TitleItem>Next JS</TitleItem>    
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>IPFS</TitleItem>    
            <Line />
            </Typography>
            <Typography id="modal-modal-title" variant="h6" component="h2">
@@ -109,18 +117,24 @@ export default function Skills() {
            <Line />
            </Typography>
            <Typography id="modal-modal-title" variant="h6" component="h2">
-           <TitleItem>Git/Github</TitleItem>    
-           <Line />
-           </Typography>
-           <Typography id="modal-modal-title" variant="h6" component="h2">
-           <TitleItem>Graph QL</TitleItem>    
-           <Line />
-           </Typography>
-           <Typography id="modal-modal-title" variant="h6" component="h2">
-           <TitleItem>IPFS</TitleItem>    
+           <TitleItem>Jest</TitleItem>    
            <Line />
            </Typography>
                </Wrapper3>
+               <Wrapper4>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Git/Github</TitleItem>    
+           <Line />
+           </Typography>
+               </Wrapper4>
+               <Wrapper5>
+               <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Graph QL</TitleItem>    
+           <Line />
+           </Typography>
+               </Wrapper5>
+               <Wrapper6>
+               </Wrapper6>
            </Wrapper>
 
 

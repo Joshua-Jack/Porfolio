@@ -105,12 +105,34 @@ export const Wrapper = styled.div`
 `
 
 export const Wrapper2 = styled.div`
-  
   `;
 
 export const Wrapper3 = styled.div`
 align-items: center;
 text-align: center;
  margin-left: 10%;
- width: 150px
+ width: 150px;
   `;
+
+  export const Wrapper4 = styled.div`
+    align-items: center;
+text-align: center;
+ margin-left: 10%;
+ width: 150px;
+  `;
+
+
+export const Wrapper5 = styled.div`
+align-items: center;
+text-align: center;
+margin-left: 10%;
+width: 150px;
+`;
+
+
+export const Wrapper6 = styled.div`
+align-items: center;
+text-align: center;
+margin-left: 10%;
+width: 150px;
+`;

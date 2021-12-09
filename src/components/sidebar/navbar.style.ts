@@ -28,4 +28,5 @@ export const Label = styled.button`
     color: white;
     border: none;
     text-align: center;
+    cursor: pointer;
 `

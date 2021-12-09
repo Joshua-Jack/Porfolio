@@ -48,3 +48,19 @@ export const WrapperSkills = styled.div`
         position: absolute;
     /* background-color: #fff; */
 `
+
+export const Opening = styled.div`
+  background-color: grey;
+`
+export const About = styled.div`
+  background-color: black;
+`
+export const Technical = styled.div`
+  background-color: grey;
+`
+export const Work= styled.div`
+  background-color: black;
+`
+export const ContactMe = styled.div`
+  background-color: green;
+`
