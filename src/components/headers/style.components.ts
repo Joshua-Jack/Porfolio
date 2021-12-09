@@ -25,16 +25,27 @@ export const Headers = styled.div`
         margin-top: 10%;
         margin-left: 10%;
 
+
 `
 
 export const Title = styled.h1`
  font-size: 3.5em;
- color: #FFFFFF;
+ color: #393939;
  width: 100%;
+ font-weight: 100;
 `
-
+export const T = styled.b`
+ font-size: 1.5em;
+ color: #6065ff;
+ width: 100%;
+ font-weight: bold;
+`
 export const OuterWrapper = styled.div`
         display: flex;
         flex-direction: row;
 
+`
+
+export const TitleWrapper = styled.div`
+ padding-bottom: -20px;
 `

@@ -44,7 +44,7 @@ export const Wrapper = styled.div`
 export const H1 = styled.h1`
     margin-top: 7%;
     padding-left: 16%;
-    color: #ffff;
+    color: #393939;
 `
 
 export const Box = styled.div`
@@ -90,7 +90,7 @@ export const ModalBtn = styled.button`
 `
 export const Stack = styled.div`
     padding-left: 4%;
-    color: white;
+    color: #393939;
     margin-bottom: 2%;
 `
 

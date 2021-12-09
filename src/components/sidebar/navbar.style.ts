@@ -25,7 +25,7 @@ export const Label = styled.button`
     font-size: 30px;
     background: none;
     /* text-decoration: none; */
-    color: white;
+    color: #6065ff;
     border: none;
     text-align: center;
 `

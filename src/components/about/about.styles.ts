@@ -25,7 +25,7 @@ export const Label = styled.div`
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
-  color: white;
+  color: #393939;
   /* margin: 30px auto; */
   /* height: 60vh;
   width: 60vw;  */

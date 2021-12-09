@@ -2,18 +2,20 @@ import React from 'react'
 import About from '../about/about'
 import { AboutCard, H1, Label, Wrapper } from '../about/about.styles'
 import Contact from '../contact/contact'
-import { Div, Headers, OuterWrapper, Title } from './style.components' 
+import { Div, Headers, OuterWrapper, Title, T, TitleWrapper } from './style.components' 
 
 export default function Topbar() {
     return (
        <>
        <OuterWrapper>
        <Headers>
-            <Title>Joshua Jack
-                Blockchain Engineer</Title>
+           <TitleWrapper>
+            <Title>Joshua Jack</Title>
+            <T> Blockchain Engineer </T>
+            </TitleWrapper>
         <Contact /></Headers>
         <Wrapper>
-        {/* <H1>Intro</H1> */}
+        {/* <H1>Intro</H1> */} 
         {/* <AboutCard> */}
             <Label>
             Hi, Im Josh I am a full-stack Blockchain Engineer who focuses on

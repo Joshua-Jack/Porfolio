@@ -61,7 +61,7 @@ padding-left: 25%;
 export const H1 = styled.h1`
     margin-top: 7%;
     padding-left: 16%;
-    color: #ffff;
+    color: #393939;
 `
 
 export const IMG = styled.img`
@@ -76,6 +76,7 @@ margin-left: 30%;
 
 export const Title = styled.h2`
     padding-left: 20%;
+    color: #393939;
 `
 
 export const TitleJest = styled.h2`
@@ -84,7 +85,7 @@ export const TitleJest = styled.h2`
 
 export const TitleItem = styled.div`
 padding-left: 4%;
-color: white;
+color: #393939;
 overflow: hidden;
     white-space: nowrap;
     width: 100%;
