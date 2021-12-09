@@ -17,7 +17,7 @@ export const CardGrid = styled.div`
     `
 
 export const Body = styled.div`
-height: 150vh
+height: 150vh;
 `
 
 export const Card = styled.div`
@@ -58,9 +58,10 @@ padding-left: 25%;
 /* width: 50%; */
 
 `
-
 export const H1 = styled.h1`
+    margin-top: 7%;
     padding-left: 16%;
+    color: #ffff;
 `
 
 export const IMG = styled.img`
@@ -80,3 +81,36 @@ export const Title = styled.h2`
 export const TitleJest = styled.h2`
     padding-left: 35%;
 `
+
+export const TitleItem = styled.div`
+padding-left: 4%;
+color: white;
+overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+`
+
+export const Wrapper = styled.div`
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-top: 14%;
+    left: 42%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 350px;
+`
+
+export const Wrapper2 = styled.div`
+  
+  `;
+
+export const Wrapper3 = styled.div`
+align-items: center;
+text-align: center;
+ margin-left: 10%;
+ width: 150px
+  `;

@@ -29,15 +29,31 @@ export const Card = styled.div`
 
 
 export const Wrapper = styled.div`
-         width: 70vw;
-    height: 80vh;
-        padding-top: 15%;
-        margin-bottom: 10%;
-        margin-left: 18%;
-        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        margin-top: 14%;
+    left: 42%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 350px;
 `
 export const H1 = styled.h1`
+    margin-top: 7%;
     padding-left: 16%;
+    color: #ffff;
+`
+
+export const Box = styled.div`
+  background-color: #fff;
+    background-image: linear-gradient(to right, #ffff 0%, gray 85%);
+    padding: 10px 10px;
+    margin-top: 40px;
+    width: 50%;
+    height: 50%;
 `
 export const Title = styled.button`
      background: none;
@@ -52,10 +68,13 @@ export const Title = styled.button`
 
 export const Position = styled.div`
 padding-left: 4%;
+color: white;
 `
 
 export const Line = styled.hr`
     border-style: ridge;
+    width: 100%;
+    margin-right: 30%;
     color: black;
 `
 
@@ -70,7 +89,9 @@ export const ModalBtn = styled.button`
     text-align: center;
 `
 export const Stack = styled.div`
-    padding-left: 6%
+    padding-left: 4%;
+    color: white;
+    margin-bottom: 2%;
 `
 
 export const IMG = styled.img`
@@ -99,3 +120,10 @@ export const IMg = styled.img`
     margin-top: 10%;
 
 `
+
+export const Wrapper2 = styled.div`
+   margin-left: 20%;
+  `;
+
+export const Wrapper3 = styled.div`
+  `;

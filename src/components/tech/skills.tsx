@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../sidebar/navBar'
-import { Body, Card, CardGrid, FOO, H1, ImageBackground, IMG, Img, Img2, Img3, Title, TitleJest } from './skills.styles'
+import { Body, Card, CardGrid, FOO, H1, ImageBackground, IMG, Img, Img2, Img3, Title, TitleItem, TitleJest, Wrapper, Wrapper2, Wrapper3 } from './skills.styles'
 import nextjs from '../../assets/nextjs.svg'
 import reactjs from '../../assets/reactjs.svg'
 import js from '../../assets/js.svg'
@@ -10,56 +10,120 @@ import ethers from '../../assets/ethers.svg'
 import jest from '../../assets/jest.svg'
 import graphql from '../../assets/graphql.svg'
 import IPFS from '../../assets/IPFS.png'
+import { Box, Button, Modal, Typography } from '@mui/material'
+import { Line } from '../work/experience.styles'
 
 
 
 export default function Skills() {
+    const style = {
+        position: 'absolute' as 'absolute',
+        display:'flex',
+        top: '55%',
+        left: '41%',
+        transform: 'translate(-50%, -50%)',
+        width: 900,
+        height: 350,
+        bgcolor: 'grey',
+        // border: '1px solid #000',
+        // boxShadow: 4,
+        // p: 4,
+      }; 
+
     return (
         <>
            <Navbar />
-           <Body>
-        <H1> Skills </H1>
-        <CardGrid>
-         <Card >
-             <Title>React JS</Title>
-             <IMG src={reactjs} /> 
-         </Card>
-         <Card >
-        <Title> Next JS</Title> 
-        <Img src={nextjs } />
-         </Card>
-         <Card>
-         <TitleJest>Jest</TitleJest>	
-         <IMG src={jest} />   
-         </Card>
-         <Card>
-        <Title>Typescript </Title> 
-         <IMG src={typescript} />	
-         </Card>
-         <Card>
-        <Title>Javascript</Title>
-        <Img src={js}/>
-         </Card>
-         <Card>
-        <Title>Ethers	js</Title> 
-        < ImageBackground>
-         <Img2 src={ethers} />
-         </ImageBackground>
-         </Card>
-         <Card>
-         <Title>GraphQl </Title>
-         <IMG src={graphql}/>
-         </Card>
-         <Card>
-        <Title> Git | Github   </Title> 
-         <IMG src={git} />     
-         </Card>
-         <Card>
-        <Title> IPFS  </Title> 
-         <Img3 src={IPFS} />     
-         </Card>
-         </CardGrid>
-         </Body>
+           <H1> Skills </H1>
+           {/* <Box sx={style}>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Typescript</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Javascript</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Assembly Script</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Jest</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>React JS</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Next JS</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Ethers JS</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Git/Github</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Graph QL</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>IPFS</TitleItem>    
+           <Line />
+           </Typography>
+           </Box>  */}
+           <Wrapper>
+               <Wrapper2>   
+         <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Typescript</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Javascript</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Assembly Script</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Jest</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>React JS</TitleItem>    
+           <Line />
+           </Typography>
+           </Wrapper2>
+               <Wrapper3>
+               <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Next JS</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Ethers JS</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Git/Github</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>Graph QL</TitleItem>    
+           <Line />
+           </Typography>
+           <Typography id="modal-modal-title" variant="h6" component="h2">
+           <TitleItem>IPFS</TitleItem>    
+           <Line />
+           </Typography>
+               </Wrapper3>
+           </Wrapper>
+
+
           </>
     ) 
 }
